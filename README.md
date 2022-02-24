@@ -2,7 +2,7 @@
 
 <p><strong>--==GIT COMMIT FORMAT==--</strong><p>
 <p><strong>[type][optional scope]: [description]</strong><p>
-<p><strong>[type]</strong><p>
+<strong>[type]</strong>
 <ul>
   <li>feat: (new feature for the user)</li>
   <li>fix: (bug fix for the user, if bug was reported by customer include bug# in [optional scope])</li>
