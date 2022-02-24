@@ -1,16 +1,18 @@
 # My Notes
 
---==GIT COMMIT FORMAT==--<br>
+<p><strong>--==GIT COMMIT FORMAT==--</strong><p>
 <p><strong>[type][optional scope]: [description]</strong><p>
-<p>[type]<p>
-feat: (new feature for the user)
-fix: (bug fix for the user, if bug was reported by customer include bug# in [optional scope])
-docs: (changes to the documentation)
-style: (formatting, missing semi colons, etc; no production code change)
-refactor: (refactoring production code, eg. renaming a variable)
-test: (adding missing tests, refactoring tests; no production code change)
-chore: (updating grunt tasks etc; no production code change)
-other: (other)
+<p><strong>[type]</strong><p>
+<ul>
+  <li>feat: (new feature for the user)</li>
+  <li>fix: (bug fix for the user, if bug was reported by customer include bug# in [optional scope])</li>
+  <li>docs: (changes to the documentation)</li>
+  <li>style: (formatting, missing semi colons, etc; no production code change)</li>
+  <li>refactor: (refactoring production code, eg. renaming a variable)</li>
+  <li>test: (adding missing tests, refactoring tests; no production code change)</li>
+  <li>chore: (updating grunt tasks etc; no production code change)</li>
+  <li>other: (other)</li>
+</ul>
 
 [optional scope]
 BREACKING CHANGE: (warn user of changes to code that break previous features)
