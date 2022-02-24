@@ -1,7 +1,7 @@
 # My Notes
 
-<p><strong>--==GIT COMMIT FORMAT==--</strong><p>
-<p><strong>[type][optional scope]: [description]</strong><p>
+<p><strong>--==GIT COMMIT FORMAT==--</strong></p>
+<p><strong>[type][optional scope]: [description]</strong></p>
   
 <strong>[type]</strong>
 <ul>
@@ -15,11 +15,11 @@
   <li>other: (other)</li>
 </ul>
 
-<p><strong>[optional scope]</strong><p>
+<p><strong>[optional scope]</strong></p>
 <ul>
   <li>BREACKING CHANGE: (warn user of changes to code that break previous features)</li>
-
-<p><strong>--==Common Shell Commands==--</strong><p>
+</ul>
+<p><strong>--==Common Shell Commands==--</strong></p>
 C:\> robocopy "[Source Directory]" "[Destination Directory]" /e /w:5 /r:2 /COPY:DATSOU /DCOPY:DAT /MT
 /e - Copy all folders including empty ones
 /r - Retry times /r:0 means no retry on failed copy
