@@ -1,9 +1,8 @@
 # My Notes
 
 --==GIT COMMIT FORMAT==--<br>
-<p><type>[optional scope]: <description><p>
-
-<type>
+<p>[type][optional scope]: [description]<p>
+<p>[type]<p>
 feat: (new feature for the user)
 fix: (bug fix for the user, if bug was reported by customer include bug# in [optional scope])
 docs: (changes to the documentation)
