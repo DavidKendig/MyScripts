@@ -1,6 +1,6 @@
 # My Notes
 
---==GIT COMMIT FORMAT==--
+--==GIT COMMIT FORMAT==--<br>
 <type>[optional scope]: <description>
 <br>
 <type>
