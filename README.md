@@ -17,9 +17,10 @@
 
 <p><strong>[optional scope]</strong></p>
 <ul>
-  <li>BREACKING CHANGE: (warn user of changes to code that break previous features)</li>
+  <li>BREAKING CHANGE: (warn user of changes to code that break previous features)</li>
 </ul>
-<p><strong>--==Common Shell Commands==--</strong></p>
+
+<strong>--==Common Shell Commands==--</strong>
 C:\> robocopy "[Source Directory]" "[Destination Directory]" /e /w:5 /r:2 /COPY:DATSOU /DCOPY:DAT /MT
 /e - Copy all folders including empty ones
 /r - Retry times /r:0 means no retry on failed copy
