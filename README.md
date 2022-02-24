@@ -2,7 +2,7 @@
 
 --==GIT COMMIT FORMAT==--
 <type>[optional scope]: <description>
-
+<br>
 <type>
 feat: (new feature for the user)
 fix: (bug fix for the user, if bug was reported by customer include bug# in [optional scope])
