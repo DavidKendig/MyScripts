@@ -2,6 +2,7 @@
 
 <p><strong>--==GIT COMMIT FORMAT==--</strong><p>
 <p><strong>[type][optional scope]: [description]</strong><p>
+  
 <strong>[type]</strong>
 <ul>
   <li>feat: (new feature for the user)</li>
@@ -14,10 +15,11 @@
   <li>other: (other)</li>
 </ul>
 
-[optional scope]
-BREACKING CHANGE: (warn user of changes to code that break previous features)
+<p><strong>[optional scope]</strong><p>
+<ul>
+  <li>BREACKING CHANGE: (warn user of changes to code that break previous features)</li>
 
---==Common Shell Commands==--
+<p><strong>--==Common Shell Commands==--</strong><p>
 C:\> robocopy "[Source Directory]" "[Destination Directory]" /e /w:5 /r:2 /COPY:DATSOU /DCOPY:DAT /MT
 /e - Copy all folders including empty ones
 /r - Retry times /r:0 means no retry on failed copy
