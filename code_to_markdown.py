@@ -119,4 +119,13 @@ def find_and_convert_code_files():
 
 
 if __name__ == '__main__':
-    find_and_convert_code_files()
+    try:
+        find_and_convert_code_files()
+    except Exception as e:
+        print("\n" + "="*50)
+        print(f"ERROR: An unexpected error occurred:")
+        print(f"    {type(e).__name__}: {e}")
+        print("="*50)
+    finally:
+        print("\nPress Enter to exit...")
+        input()
