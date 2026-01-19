@@ -34,3 +34,5 @@ C:\> robocopy "[Source Directory]" "[Destination Directory]" /e /w:5 /r:2 /COPY:
 /RH:1700-0900 - Scheduled run between 5PM and 9AM and will pause if it is during “business hours of 9AM-5PM”
 /LOG+:C:\robocopy.log - Outputs everything to C:\robocopy.log (Note: if NOT running as admin you need to put this in your user folder C:\Users\username\robocopy.log) the + adds to the file.
 /TEE - If using LOG and you also want console output, put the /TEE option in.
+
+sed -i 's/\r$//' ~/Downloads/install_comfyui_manjaro.sh && bash ~/Downloads/install_comfyui_manjaro.sh
